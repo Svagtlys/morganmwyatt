@@ -1,29 +1,29 @@
 <div class='bg-img flex-container'>
-    <img class='flex-item' src='assets/QS8PtStar.png' height='200vh'>
-    <h1 class='flex-item'>The Beaten Path</h1>
+    <img class='flex-item icon' src='assets/QS8PtStar.png'>
+    <h1 class='flex-item title'>The Beaten Path</h1>
     
-    <span class='flex-item bookmark' (mouseenter) ="mouseEnter('home bookmark')"  (mouseleave) ="mouseLeave('home bookmark')">
+    <a routerLink='/home' class='flex-item bookmark'>
         <img src='assets/Ribbon.png'>
-        <a routerLink='/home'>Home</a>
-    </span>
+        <p>Home</p>
+    </a>
 
-    <span class='flex-item bookmark' (mouseenter) ="mouseEnter('about bookmark')"  (mouseleave) ="mouseLeave('about bookmark')">
+    <a routerLink='/about' class='flex-item bookmark'>
         <img src='assets/Ribbon.png'>
-        <a routerLink='/about'>About</a>
-    </span>
+        <p>About<p>
+    </a>
 
-    <span class='flex-item bookmark' (mouseenter) ="mouseEnter('portfolio bookmark')"  (mouseleave) ="mouseLeave('portfolio bookmark')">
+    <a routerLink='/portfolio' class='flex-item bookmark'>
         <img src='assets/Ribbon.png'>
-        <a routerLink='/portfolio'>Portfolio</a>
-    </span>
+        <p>Portfolio</p>
+    </a>
 
-    <span class='flex-item bookmark' (mouseenter) ="mouseEnter('worlds bookmark')"  (mouseleave) ="mouseLeave('worlds bookmark')">
+    <a routerLink='/worlds' class='flex-item bookmark'>
         <img src='assets/Ribbon.png'>
-        <a routerLink='/worlds'>Worlds</a>
-    </span>
+        <p>Worlds</p>
+    </a>
 
-    <span class='flex-item bookmark' (mouseenter) ="mouseEnter('hobbies bookmark')"  (mouseleave) ="mouseLeave('hobbies bookmark')">
+    <a routerLink='/hobbies' class='flex-item bookmark'>
         <img src='assets/Ribbon.png'>
-        <a routerLink='/hobbies'>Hobbies</a>
-    </span>
+        <p>Hobbies</p>
+    </a>
 </div>

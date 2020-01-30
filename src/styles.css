@@ -1,13 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~normalize.css';
 
-p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Homemade Apple', cursive;
+h2, h3, h4, h5, h6 {
+    font-family: 'Dawning of a New Day', cursive;
 }
 
-a { 
+h1 {
     font-family: 'Sedgwick Ave Display', cursive;
-    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+    font-size: 400%;
+    font-weight: 50;
+}
+
+a, p { 
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 /* font-family: 'Homemade Apple', cursive;
