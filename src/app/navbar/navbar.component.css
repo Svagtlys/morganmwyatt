@@ -1,0 +1,49 @@
+.bg-img {
+    background-image: url('../../assets/leatherTexture.png');
+    height: 30vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap; /*Left to right, all on one line*/
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 0; /*Don't take up extra space*/
+}
+
+.bookmark {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -20vh;
+    margin-right: 5vw;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;
+}
+
+.bookmark:hover{
+    margin-top: -5vh;
+}
+
+.bookmark img {
+    margin-top: -30vh;
+}
+
+.bookmark a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    color: white;
+    text-decoration: none;
+}
