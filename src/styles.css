@@ -1,8 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~normalize.css';
 
-h2, h3, h4, h5, h6 {
-    font-family: 'Dawning of a New Day', cursive;
+@font-face { font-family: 'Royal'; src: url('assets/fonts/Royal-7B3K.ttf'); }
+
+/* font-family: 'Homemade Apple', cursive;*/
+
+h4, h5, h6, a, p {
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+p {
+    font-size: 250%;
 }
 
 h1 {
@@ -11,10 +19,30 @@ h1 {
     font-weight: 50;
 }
 
-a, p { 
-    font-family: 'Sedgwick Ave Display', cursive;
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
 }
 
-/* font-family: 'Homemade Apple', cursive;
-font-family: 'Sedgwick Ave Display', cursive;
-font-family: 'Dawning of a New Day', cursive; */
+.flex-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row nowrap; /*Left to right, all on one line*/
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-container-column {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.flex-item {
+    flex: 0; /*Don't take up extra space*/
+}
